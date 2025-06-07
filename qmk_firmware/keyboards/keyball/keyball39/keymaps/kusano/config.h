@@ -25,5 +25,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE // 有効
-#define AUTO_MOUSE_DEFAULT_LAYER 4
 #define AUTO_MOUSE_TIME 500
