@@ -77,6 +77,8 @@ void oledkit_render_info_user(void) {
 }
 #endif
 
+#include "pointing_device.h"
+
 void pointing_device_init_user(void){
   set_auto_mouse_layer(4);
 }
