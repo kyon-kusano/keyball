@@ -76,3 +76,9 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+#ifdef POINT_DEVICE_AUTO_MOUSE_ENABLE
+void pointing_device_init_user(void){
+  set_auto_mouse_enable(true);
+}
+#endif
