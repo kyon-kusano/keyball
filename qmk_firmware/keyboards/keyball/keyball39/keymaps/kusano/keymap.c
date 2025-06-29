@@ -99,7 +99,7 @@ void pointing_device_init_user(void){
 bool process_record_user(uint16_t keycode, keyrecord_t *record){
   switch(keycode){
     case LNG_TOGGLE:
-      if(record->tab.count && record->event.pressed){
+      if(record->tap.count && record->event.pressed){
         // タップ時の処理（推した瞬間）
         if(is_lang1){
           tap_code(KC_LNG1);
