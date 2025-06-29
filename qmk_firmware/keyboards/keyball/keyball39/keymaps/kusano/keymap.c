@@ -96,7 +96,7 @@ void pointing_device_init_user(void){
 }
 #endif
 
-bool process_record_user(uint16t keycode, keyrecord_t *record){
+bool process_record_user(uint16_t keycode, keyrecord_t *record){
   switch(keycode){
     case LANG_TOGGLE:
       if(record->tab.count && record->event.pressed){
