@@ -102,9 +102,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record){
       if(record->tab.count && record->event.pressed){
         // タップ時の処理（推した瞬間）
         if(is_lang1){
-          tap_code(KC_LANG1);
+          tap_code(KC_LNG1);
         }else{
-          tap_code(KC_LANG2);
+          tap_code(KC_LNG2);
         }
         is_lang1 = !is_lang1;
       }
